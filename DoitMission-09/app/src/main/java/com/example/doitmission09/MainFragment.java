@@ -74,7 +74,7 @@ public class MainFragment extends Fragment {
     //날짜를 선택했을 때
     private DatePickerDialog.OnDateSetListener birthDateSetListener = new DatePickerDialog.OnDateSetListener() {
         public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
-            Calendar selectedCalendar = Calendar.getInstance(); //선택한 캘린더 객체 가져오기
+            Calendar selectedCalendar = Calendar.getInstance();
             selectedCalendar.set(Calendar.YEAR, year); //선택한 년도 캘린더에 표시하기
             selectedCalendar.set(Calendar.MONTH, monthOfYear); //선택한 월 캘린더에 표시하기
             selectedCalendar.set(Calendar.DAY_OF_MONTH, dayOfMonth); //선택한 날짜 캘린더에 표시하기
