@@ -1,5 +1,6 @@
 package com.example.doitmission10;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -39,6 +40,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     DrawerLayout drawer;
     Toolbar toolbar;
 
+    BottomNavigationView bottomNavigation;
+    private MenuItem prevBottomNavigation;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -66,8 +70,28 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         fragment3 = new FragmentMenu3(); adapter.addItem(fragment3);
 
         pager.setAdapter(adapter);
+        pager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            @Override
+            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
 
-        BottomNavigationView bottomNavigation = findViewById(R.id.bottom_navigation);
+            }
+
+            @Override
+            public void onPageSelected(int position) {
+                if (prevBottomNavigation != null) {
+                    prevBottomNavigation.setChecked(false);
+                }
+                prevBottomNavigation = bottomNavigation.getMenu().getItem(position);
+                prevBottomNavigation.setChecked(true);
+            }
+
+            @Override
+            public void onPageScrollStateChanged(int state) {
+
+            }
+        });
+
+        bottomNavigation = findViewById(R.id.bottom_navigation);
         bottomNavigation.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -89,6 +113,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 return false;
             }
         });
+
+
     }
 
     @Override
@@ -110,6 +136,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         if (id == R.id.nav_menu1) {
             Toast.makeText(this, "첫번째 메뉴 선택됨.", Toast.LENGTH_LONG).show();
             pager.setCurrentItem(0);
+
         } else if (id == R.id.nav_menu2) {
             Toast.makeText(this, "두번째 메뉴 선택됨.", Toast.LENGTH_LONG).show();
             pager.setCurrentItem(1);
@@ -153,5 +180,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             return "페이지 " + position;
         }
     }
+
+
 
 }
