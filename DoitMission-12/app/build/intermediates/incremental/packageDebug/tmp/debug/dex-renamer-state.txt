@@ -1,0 +1,4 @@
+#Thu Sep 02 17:28:37 KST 2021
+base.0=C\:\\Users\\Public\\Doit\\DoitMission-12\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
