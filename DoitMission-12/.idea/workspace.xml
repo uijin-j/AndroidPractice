@@ -42,16 +42,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7328a14-6cd9-4cd1-be05-0e873bc0923b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/highfive/doitmission12/MyReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/highfive/doitmission12/MyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\Public\Documents\Pixel_2_API_30.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\Public\Documents\Pixel_2_API_30.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -68,6 +66,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../Documents" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
@@ -163,6 +162,26 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="449" y="147" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1630671051966">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="147" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1630671051966" />
+    <state width="1493" height="175" key="GridCell.Tab.0.bottom" timestamp="1630671094136">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="175" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1630671094136" />
+    <state width="1493" height="175" key="GridCell.Tab.0.center" timestamp="1630671094136">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="175" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1630671094136" />
+    <state width="1493" height="175" key="GridCell.Tab.0.left" timestamp="1630671094136">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="175" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1630671094136" />
+    <state width="1493" height="175" key="GridCell.Tab.0.right" timestamp="1630671094136">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="175" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1630671094136" />
     <state x="476" y="255" key="edit.logcat.filter.dialog.dimensions" timestamp="1630571436910">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
